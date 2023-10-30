@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+/* Cart.css */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+.cart-item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.cart-item-image img {
+  padding: 10px;
+  margin: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+div.cart-item-quantity,
+div.cart-item-price {
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
