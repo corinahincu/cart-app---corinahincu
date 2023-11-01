@@ -8,6 +8,6 @@ export const items = [
       amount: 1300,
       currency: "EUR",
     },
-    quantity: 1,
+    quantity: 3,
   },
 ];

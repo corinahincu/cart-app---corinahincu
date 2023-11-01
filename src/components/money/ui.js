@@ -1,8 +1,8 @@
 // Money component
-export function Money(props) {
+export function Money({cost,currency}) {
   return (
     <span className="money">
-      {props.cost} {props.currency}
+      {cost} {currency}
     </span>
   );
 }
