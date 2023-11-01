@@ -7,7 +7,7 @@ export function getCartItems() {
   return items.map( item => {
     return new CartItem(item)
   })
-};
+}
 
 console.log(items);
 
